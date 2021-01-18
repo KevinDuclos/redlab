@@ -7,8 +7,10 @@
         </div>
         <div class="content">
             <div class="row">
+            <div class="col-8">
                 <?php if(have_posts()) : ?>
                     <?php while (have_posts())  : the_post(); ?>
+                    <div class="row">
                         <div class="col-4">
                             <div class="card">
                                 <div class="card-title">
@@ -16,8 +18,14 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
                     <?php endwhile; ?>
                 <?php endif; ?>
+                </div>
+                <div class="col-4">
+                <?php get_sidebar(); ?>
+
+                </div>
             </div>
         </div>
     </main>
