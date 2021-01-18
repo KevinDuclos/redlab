@@ -17,6 +17,17 @@ Version: 1.0
     font-size: 24px;
     margin:0;
 }
+
+.container-logo{
+    width: 224px;
+    overflow: hidden;
+}
+
+.container-logo > a > img {
+    object-fit: contain;
+    width: 100%;
+}
+
 a{
     text-decoration: none;
     color: white;
