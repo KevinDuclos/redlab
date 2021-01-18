@@ -4,3 +4,17 @@ Author: Kevin D. - Aegir B. - Mathis F.
 Description: Thème utilisé dans le cadre de la création du blog redlab
 Version: 1.0
 */
+
+.nav{
+    background-color: #E12C2C;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.main-navbar{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
