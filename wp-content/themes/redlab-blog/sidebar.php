@@ -10,7 +10,12 @@
         </div>
         <div class="card-content">
         <ol class="list-unstyled mb-0">
+        <li>
             <?php wp_get_archives(); ?>
+        </li>
+        <li>
+            <?php wp_list_categories(); ?>
+        </li>
         </ol>
         </div>
 
