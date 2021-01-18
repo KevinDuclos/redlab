@@ -10,11 +10,48 @@ Version: 1.0
     display: flex;
     justify-content: space-evenly;
     color: white;
+    height: 80px;
+    align-items: center;
 }
-.main-navbar{
-    list-style: none;
+#main-navbar{
+    font-size: 24px;
+    margin:0;
 }
 a{
     text-decoration: none;
     color: white;
+}
+
+.searchWrap{
+ position: relative;   
+}
+#s{
+    border-radius: 50em;
+    border-style: none;
+    padding: 0 0 0 2em;
+    height: 48px;
+}
+#s:focus{
+    outline: none;
+}
+#s::placeholder{
+  text-align: end;
+  padding: 0 1em 0 0;
+}
+
+.fa-search{
+    color:#E12C2C;
+    position: absolute;
+    left: 0.5em;
+    top: 50%;
+    transform: translateY(-8px);
+}
+
+
+
+.main-footer{
+    background-color: #E12C2C;
+    color: white;
+    font-size: 24px;
+    padding: 48px 0;
 }
