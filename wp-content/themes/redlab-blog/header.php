@@ -8,4 +8,17 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<nav class="nav">
+    <?php wp_nav_menu( array(
+        'theme_location' => 'main',
+        'container' => 'ul',
+        'menu_class' => 'navbar-brand',
+        'menu_id' => 'main-navbar',
+        )
+        );
+    ?>
+    <div class="search">
+    <?php get_search_form(); ?>
+    </div>
+</nav>
     
