@@ -9,6 +9,9 @@
 </head>
 <body>
 <nav class="nav">
+<div class="container-logo">
+            <?php the_custom_logo(); ?>
+        </div>
     <?php wp_nav_menu( array(
         'theme_location' => 'main',
         'container' => 'ul',
