@@ -11,18 +11,23 @@
                 <?php if(have_posts()) : ?>
                     <?php while (have_posts())  : the_post(); ?>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col">
                             <div class="card">
-                                <div class="card-title">
-                                    <?php the_title(); ?>
+                                <div class="cardHead">
+                                    <span>Publié le <?php the_date() ?></span>
+                                    <span>par <?php the_author(); ?></span>
+                                    <div class="card-title">
+                                        <?php the_title(); ?>
+                                    </div>
                                 </div>
+                                
                             </div>
                         </div>
                         </div>
                     <?php endwhile; ?>
                 <?php endif; ?>
                 </div>
-                <div class="col-4">
+                <div class="col-1">
                 <?php get_sidebar(); ?>
 
                 </div>
