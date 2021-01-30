@@ -24,7 +24,6 @@
                                     <?php the_post_thumbnail() ?>
                                 </div>
                                 <div class="cardText">
-                                    <?php the_post
                                 </div>
                                 
                             </div>
