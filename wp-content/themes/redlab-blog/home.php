@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+
+
 <div class="container">
     <h1>Salut</h1>
     <main class="main">
@@ -24,6 +26,7 @@
                                     <?php the_post_thumbnail() ?>
                                 </div>
                                 <div class="cardText">
+                                    <?php the_excerpt() ?>
                                 </div>
                                 
                             </div>
