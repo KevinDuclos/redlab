@@ -20,6 +20,12 @@
                                         <?php the_title(); ?>
                                     </div>
                                 </div>
+                                <div class="cardImage">
+                                    <?php the_post_thumbnail() ?>
+                                </div>
+                                <div class="cardText">
+                                    <?php the_post
+                                </div>
                                 
                             </div>
                         </div>
